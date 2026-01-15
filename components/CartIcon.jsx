@@ -3,7 +3,7 @@ import React from "react";
 
 const CartIcon = () => {
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-2">
       <div className="relative w-8 h-8 md:w-6 md:h-6">
         <Image
           src="/cart.png"

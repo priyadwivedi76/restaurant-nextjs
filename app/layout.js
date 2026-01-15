@@ -1,6 +1,7 @@
 
 import Notification from "@/components/Notification";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <Notification/>
         <NavBar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
