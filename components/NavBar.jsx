@@ -11,7 +11,6 @@ const NavBar = () => {
       <div className='hidden md:flex flex-1 gap-4'>
         <Link href={"/"}>Homepage</Link>
         <Link href={"/menu"}>Menu</Link>
-        <Link href={"/contact"}>Contact</Link>
       </div>
       {/* logo */}
       <div className='text-xl md:font-bold flex-1 md:text-center'>
@@ -29,7 +28,7 @@ const NavBar = () => {
           <span>123 456 789</span>
         </div>
         {user ? (
-          <Link href={"login/"}>Login</Link>
+          <Link href={"/login"}>Login</Link>
         ) : (
           <Link href={"/orders"}>Orders</Link>
           )}
